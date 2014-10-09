@@ -1,0 +1,64 @@
+body {
+    background-image:url('back.png');
+}
+
+.header {
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading {
+    font-size: 40px;
+    font-family: Georgia;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 100;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+svg {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.link {
+    fill: none;
+    stroke: #666;
+    stroke-width: 1.5px;
+}
+
+#prereq {
+    fill: green;
+}
+
+.link.prereq {
+    stroke: green;
+}
+
+.link.coreq {
+    stroke-dasharray: 0,2 1;
+}
+
+circle {
+    fill: #ccc;
+    stroke: #333;
+    stroke-width: 1.5px;
+}
+
+text {
+    font: 10px sans-serif;
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
